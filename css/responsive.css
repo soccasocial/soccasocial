@@ -62,7 +62,7 @@
 
 /* ---- Start of min-width 480px and max-width 768px CSS ---- */
 @media all and (min-width: 480px) and (max-width: 768px) {
-	
+
 }
 /* ---- End of min-width 480px and max-width 768px CSS ---- */
 
@@ -95,7 +95,7 @@
     .navbar-brand{
         padding: 11px 0;
     }
-    .header-btn{ margin-right: 50px; }
+    .header-btn{ margin-right: 50px;}
     .menu-wrap ul.nav{
         display: none;
     }
@@ -110,7 +110,7 @@
         padding: 0 15px;
     }
     .about-img { display: none; }
-    .about-content-left h2{ 
+    .about-content-left h2{
         transform: inherit;
         margin: 0 0 -10px;
         font-size: 30px;
@@ -179,7 +179,7 @@
         position: inherit;
     }
     .contact-wrap{
-        padding: 60px 15px; 
+        padding: 60px 15px;
         margin-top: 0;
     }
     .post-navigation .col a{ font-size: 14px; }
@@ -192,19 +192,25 @@
         margin-bottom: 16px;
     }
     .post-head .single-post-meta li{ margin-bottom: 10px; }
+        .header-btn{ margin-right: 50px; padding:0px;}
 }
 /* ---- End of max-width 576px CSS ---- */
 
 
 /* ---- Start of max-width 420px CSS ---- */
 @media all and (max-width: 420px) {
-    
+    .header-btn{ margin-right: 50px; padding:0px;}
 }
 /* ---- End of max-width 420px CSS ---- */
 
 
 /* ---- Start of max-width 380px CSS ---- */
 @media all and (max-width: 380px) {
-	
+    .header-btn{ margin-right: 50px; padding:0px;}
+}
+/* ---- End of max-width 380px CSS ---- */
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 300px) {
+    .header-btn{ margin-right: 50px; padding:0px;}
 }
 /* ---- End of max-width 380px CSS ---- */
