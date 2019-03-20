@@ -3,7 +3,7 @@
 /*  ==========================================================================
     Table of Contets
     ==========================================================================
-    
+
     1.0 Common Styles
     2.0 Header Section
     3.0 Hero Section
@@ -19,13 +19,13 @@
     13.0 Subscribe Section
     14.0 Footer Section
     15.0 Scrool To Top
-    
+
     ==========================================================================
     Gabbar Portfolio Version 0.1
     ========================================================================== */
 
 	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
-	
+
 /*  ==========================================================================
     Common Styles
     ========================================================================== */
@@ -111,17 +111,17 @@ textarea::-webkit-input-placeholder{
 
 input:-moz-placeholder,
 textarea:-moz-placeholder{ /* Firefox 18- */
-   color: #ddd !important;  
+   color: #ddd !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder{  /* Firefox 19+ */
-   color: #ddd !important;  
+   color: #ddd !important;
 }
 
 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder{  
-   color: #ddd !important;  
+textarea:-ms-input-placeholder{
+   color: #ddd !important;
 }
 button{
     border: none;
@@ -242,7 +242,7 @@ button{
   width: 40px;
   height: 40px;
 
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
@@ -256,7 +256,7 @@ button{
 }
 
 @keyframes sk-scaleout {
-  0% { 
+  0% {
     -webkit-transform: scale(0);
     transform: scale(0);
   } 100% {
@@ -527,7 +527,7 @@ ul.nav > li > a.active{
     margin: 7px 5px 22px;
 }
 .slicknav_nav .slicknav_row:hover,
-.slicknav_nav .slicknav_row, 
+.slicknav_nav .slicknav_row,
 .slicknav_nav a,
 .slicknav_nav a:hover{
     -moz-border-radius: 0;
@@ -535,7 +535,7 @@ ul.nav > li > a.active{
     -o-border-radius: 0;
     border-radius: 0;
 }
-.slicknav_nav .slicknav_row, 
+.slicknav_nav .slicknav_row,
 .slicknav_nav a {
     padding: 10px 15px;
     margin: 0;
@@ -1445,7 +1445,7 @@ ul.nav > li > a.active{
 .latest-post:not(:last-of-type){
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(17,17,17,0.05); 
+    border-bottom: 1px solid rgba(17,17,17,0.05);
 }
 .latest-post a{
     display: block;
@@ -1680,7 +1680,7 @@ ul.nav > li > a.active{
     height: 60px;
     width: 95px;
     box-shadow: 0 0.1875rem 0.3125rem 0 rgba(44, 46, 48, 0.1);
-    
+
 }
 .subscribe-form .submit:hover{
     opacity: 0.8;
@@ -1722,4 +1722,10 @@ ul.nav > li > a.active{
 #scroll-to-top:hover{
     background-color: #282828;
     color: #fff;
+}
+
+/*==================custom===============*/
+
+.promo-content  > img {
+	max-width: 140px;
 }
