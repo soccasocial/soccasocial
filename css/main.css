@@ -1729,3 +1729,8 @@ ul.nav > li > a.active{
 .promo-content  > img {
 	max-width: 140px;
 }
+
+.service-wrap  img {
+	    border-radius: 50%;
+			max-width: 130px;
+}
