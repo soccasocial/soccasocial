@@ -1,15 +1,15 @@
 /* Gabbar Theme Scripts */
 
 (function($){ "use strict";
-             
+
     $(window).on('load', function() {
         $('body').addClass('loaded');
     });
 
-             
+
 /*=========================================================================
 	Sticky Header
-=========================================================================*/ 
+=========================================================================*/
 	$(function() {
 		var header = $("#header"),
 			yOffset = 0,
@@ -28,7 +28,7 @@
 
 /*=========================================================================
         Mobile Menu
-=========================================================================*/  
+=========================================================================*/
     $('.menu-wrap ul.nav').slicknav({
         prependTo: '.header-section .navbar',
         label: '',
@@ -44,7 +44,7 @@
 		$('.portfolio-filter li').on( 'click', function(){
 	        $(".portfolio-filter li").removeClass("active");
 	        $(this).addClass("active");
-	 
+
 	        var selector = $(this).attr('data-filter');
 	        $(".portfolio-items").isotope({
 	            filter: selector,
@@ -95,18 +95,18 @@
 	$('.img-popup').venobox({
 		numeratio: true,
 		infinigall: true
-	});                  
-             
+	});
+
 /*=========================================================================
 	Initialize smoothscroll plugin
 =========================================================================*/
 	smoothScroll.init({
 		offset: 60
 	});
-	 
+
 /*=========================================================================
 	Scroll To Top
-=========================================================================*/ 
+=========================================================================*/
     $(window).on( 'scroll', function () {
         if ($(this).scrollTop() > 100) {
             $('#scroll-to-top').fadeIn();
@@ -117,19 +117,19 @@
 
 /*=========================================================================
 	WOW Active
-=========================================================================*/ 
+=========================================================================*/
    new WOW().init();
-             
+
 /*=========================================================================
 	MAILCHIMP
-=========================================================================*/ 
+=========================================================================*/
 
     if ($('.subscribe-form').length>0) {
         /*  MAILCHIMP  */
         $('.subscribe-form').ajaxChimp({
             language: 'es',
             callback: mailchimpCallback,
-            url: "//alexatheme.us14.list-manage.com/subscribe/post?u=48e55a88ece7641124b31a029&amp;id=361ec5b369" 
+            url: "//alexatheme.us14.list-manage.com/subscribe/post?u=48e55a88ece7641124b31a029&amp;id=361ec5b369"
         });
     }
 
@@ -157,13 +157,13 @@
 /*=========================================================================
     Google Map Settings
 =========================================================================*/
-    google.maps.event.addDomListener(window, 'load', init);
+    //google.maps.event.addDomListener(window, 'load', init);
 
     function init() {
 
         var mapOptions = {
             zoom: 11,
-            center: new google.maps.LatLng(40.6700, -73.9400), 
+            center: new google.maps.LatLng(40.6700, -73.9400),
             scrollwheel: false,
             navigationControl: false,
             mapTypeControl: false,
